@@ -1,0 +1,17 @@
+/*Найти радиус окружности , длина которой равна l*/ 
+#include <bits/stdc++.h>
+#include <iostream>
+using namespace std;
+
+
+int main() 
+{
+ int l;
+ double R;
+ cout << "Введите длину окружности l" << endl;
+ cin  >> l;
+ R = l/2*3.14;
+ cout << "Радиус R = " << R;
+ return 0;
+
+}
